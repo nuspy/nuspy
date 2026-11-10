@@ -51,6 +51,26 @@ A model already loaded in memory is used as it is; one is loaded only if nothing
 
 </details>
 
+<a href="https://github.com/nuspy/OpenSI"><img src="assets/card-OpenSI-v2.svg" alt="OpenSI: Research prototype of an inference runtime where a language model runs its own reasoning loop." width="100%"></a>
+
+<details>
+<summary><b>Details</b></summary>
+
+The controller lets an existing open-weight model keep reasoning, inspect intermediate results, revise a candidate answer, request tools and decide for itself when to answer. Nothing is trained from scratch.
+
+**Main features**
+- A loop controller with events, memory, policies, state and tracing.
+- Model adapters: a mock, an OpenAI-compatible server, and Transformers (plain and recurrent).
+- A harness adapter that reads TaDaMoo's installed skills and MCP servers; a tool runs only after its proposal is approved.
+
+**Notable**
+- Per-tool policy tiers, sandbox roots and budgets (steps, tool calls, seconds) set in a configuration file.
+- Design notes (cognitive loop, state model, security model) and decision records sit next to the code; the runtime tests use the mock backend.
+
+**Stack:** Python, pytest, OpenAI-compatible API, Transformers, MCP
+
+</details>
+
 <a href="https://github.com/nuspy/Differently-llm"><img src="assets/card-Differently-llm-v2.svg" alt="Differently-llm: Local OpenAI-compatible server and desktop chat/loader for a ternary 27B model on an RTX 5090." width="100%"></a>
 
 <details>
