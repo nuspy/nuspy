@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Andrea Taini: local-first AI, inference engines, agent harnesses, voice and the tools around them" width="100%"></p>
+<p align="center"><img src="assets/banner.svg?v=2" alt="Andrea Taini: local-first AI, inference engines, agent harnesses, voice and the tools around them" width="100%"></p>
 
 I build **local-first AI systems**: an inference engine for mixture-of-experts models on NVIDIA Blackwell GPUs, the agent harness that runs on it, voice and avatar pipelines, and a set of tools around them. Much of it runs on your own machine, and many projects are built to be driven by AI agents (through MCP, skills or a local API).
 
@@ -6,9 +6,9 @@ I build **local-first AI systems**: an inference engine for mixture-of-experts m
 
 Each card links to its repository. Open **Details** under a card for what it does, its main features, the stack and what is worth noticing, including the limits the project states about itself.
 
-<img src="assets/divider-agents.svg" alt="AGENTS & INFERENCE" width="100%">
+<img src="assets/divider-agents.svg?v=2" alt="AGENTS & INFERENCE" width="100%">
 
-<a href="https://github.com/nuspy/tadamoo"><img src="assets/card-tadamoo.svg" alt="tadamoo: AI agent harness with a native Windows app, running on its own local inference engine." width="100%"></a>
+<a href="https://github.com/nuspy/tadamoo"><img src="assets/card-tadamoo.svg?v=2" alt="tadamoo: AI agent harness with a native Windows app, running on its own local inference engine." width="100%"></a>
 
 <details open>
 <summary><b>Details</b></summary>
@@ -30,7 +30,7 @@ TaDaMoo is a harness for AI agents (chat, planner, cron jobs, skills, MCP, memor
 
 </details>
 
-<a href="https://github.com/nuspy/llmswitch"><img src="assets/card-llmswitch.svg" alt="llmswitch: Python library that treats VRAM as a constraint: one local model at a time, plus a provider registry." width="100%"></a>
+<a href="https://github.com/nuspy/llmswitch"><img src="assets/card-llmswitch.svg?v=2" alt="llmswitch: Python library that treats VRAM as a constraint: one local model at a time, plus a provider registry." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -51,7 +51,7 @@ A model already loaded in memory is used as it is; one is loaded only if nothing
 
 </details>
 
-<a href="https://github.com/nuspy/Differently-llm"><img src="assets/card-Differently-llm.svg" alt="Differently-llm: Local OpenAI-compatible server and desktop chat/loader for a ternary 27B model on an RTX 5090." width="100%"></a>
+<a href="https://github.com/nuspy/Differently-llm"><img src="assets/card-Differently-llm.svg?v=2" alt="Differently-llm: Local OpenAI-compatible server and desktop chat/loader for a ternary 27B model on an RTX 5090." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -71,7 +71,7 @@ It wraps a patched llama.cpp build serving a ternary 27B model, with start and s
 
 </details>
 
-<a href="https://github.com/nuspy/llama-diffusion"><img src="assets/card-llama-diffusion.svg" alt="llama-diffusion: Runs Google's DiffusionGemma text-diffusion model locally behind an OpenAI-compatible API." width="100%"></a>
+<a href="https://github.com/nuspy/llama-diffusion"><img src="assets/card-llama-diffusion.svg?v=2" alt="llama-diffusion: Runs Google's DiffusionGemma text-diffusion model locally behind an OpenAI-compatible API." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -91,7 +91,7 @@ It builds a patched llama.cpp fork that can load the DiffusionGemma 26B-A4B mode
 
 </details>
 
-<a href="https://github.com/nuspy/Openweight-Canary"><img src="assets/card-Openweight-Canary.svg" alt="Openweight-Canary: Black-box test that looks for evidence that an open-weight LLM or its server sends data off the machine." width="100%"></a>
+<a href="https://github.com/nuspy/Openweight-Canary"><img src="assets/card-Openweight-Canary.svg?v=2" alt="Openweight-Canary: Black-box test that looks for evidence that an open-weight LLM or its server sends data off the machine." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -111,7 +111,7 @@ It plants fictional sensitive documents with unique canary strings, feeds each o
 
 </details>
 
-<a href="https://github.com/nuspy/AutoSkill"><img src="assets/card-AutoSkill.svg" alt="AutoSkill: Turns a worker's described task into a tested, versioned agent skill, shared through a Skill Hub." width="100%"></a>
+<a href="https://github.com/nuspy/AutoSkill"><img src="assets/card-AutoSkill.svg?v=2" alt="AutoSkill: Turns a worker's described task into a tested, versioned agent skill, shared through a Skill Hub." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -131,7 +131,7 @@ A non-technical worker explains a recurring task in an interview; the system dra
 
 </details>
 
-<a href="https://github.com/nuspy/AI-COOP"><img src="assets/card-AI-COOP.svg" alt="AI-COOP: Claude Code plugin that makes Claude and Codex debate and build together under structured protocols." width="100%"></a>
+<a href="https://github.com/nuspy/AI-COOP"><img src="assets/card-AI-COOP.svg?v=2" alt="AI-COOP: Claude Code plugin that makes Claude and Codex debate and build together under structured protocols." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -151,7 +151,7 @@ It adds two protocols as skills. /debate alternates analysis and adversarial cri
 
 </details>
 
-<a href="https://github.com/nuspy/API-CLI"><img src="assets/card-API-CLI.svg" alt="API-CLI: «War Room» web app and PowerShell REST gateway for the Claude, Codex, Gemini and Droid CLIs." width="100%"></a>
+<a href="https://github.com/nuspy/API-CLI"><img src="assets/card-API-CLI.svg?v=2" alt="API-CLI: «War Room» web app and PowerShell REST gateway for the Claude, Codex, Gemini and Droid CLIs." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -171,9 +171,9 @@ War Room is a web app where several CLI agents collaborate in a shared chat over
 
 </details>
 
-<img src="assets/divider-media.svg" alt="VOICE, VIDEO & MEDIA" width="100%">
+<img src="assets/divider-media.svg?v=2" alt="VOICE, VIDEO & MEDIA" width="100%">
 
-<a href="https://github.com/nuspy/callAPIcall"><img src="assets/card-callAPIcall.svg" alt="callAPIcall: Windows voice and phone AI assistant: voice sessions, real calls, a video-call copilot and a lip-synced avatar." width="100%"></a>
+<a href="https://github.com/nuspy/callAPIcall"><img src="assets/card-callAPIcall.svg?v=2" alt="callAPIcall: Windows voice and phone AI assistant: voice sessions, real calls, a video-call copilot and a lip-synced avatar." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -193,7 +193,7 @@ The Hermes agent, running natively on Windows, holds voice conversations, makes 
 
 </details>
 
-<a href="https://github.com/nuspy/A-I-UDIO"><img src="assets/card-A-I-UDIO.svg" alt="A-I-UDIO: Earlier public snapshot of the voice and phone suite that later became callAPIcall." width="100%"></a>
+<a href="https://github.com/nuspy/A-I-UDIO"><img src="assets/card-A-I-UDIO.svg?v=2" alt="A-I-UDIO: Earlier public snapshot of the voice and phone suite that later became callAPIcall." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -213,7 +213,7 @@ Its README describes the same Windows suite: a Hermes agent holding voice conver
 
 </details>
 
-<a href="https://github.com/nuspy/recordly-ai"><img src="assets/card-recordly-ai.svg" alt="recordly-ai: Fork of Recordly (an open-source screen recorder) that AI agents can drive over a local REST API." width="100%"></a>
+<a href="https://github.com/nuspy/recordly-ai"><img src="assets/card-recordly-ai.svg?v=2" alt="recordly-ai: Fork of Recordly (an open-source screen recorder) that AI agents can drive over a local REST API." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -233,7 +233,7 @@ Upstream Recordly records and edits screen captures with auto-zooms and styled f
 
 </details>
 
-<a href="https://github.com/nuspy/ltxstudio"><img src="assets/card-ltxstudio.svg" alt="ltxstudio: Desktop app for generating video and media with LTX models through ComfyUI, with a local REST API." width="100%"></a>
+<a href="https://github.com/nuspy/ltxstudio"><img src="assets/card-ltxstudio.svg?v=2" alt="ltxstudio: Desktop app for generating video and media with LTX models through ComfyUI, with a local REST API." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -253,9 +253,9 @@ A desktop app with prompt and video settings, LoRAs with preview, live preview, 
 
 </details>
 
-<img src="assets/divider-research.svg" alt="RESEARCH & VISION" width="100%">
+<img src="assets/divider-research.svg?v=2" alt="RESEARCH & VISION" width="100%">
 
-<a href="https://github.com/nuspy/Mysterious-Languages"><img src="assets/card-Mysterious-Languages.svg" alt="Mysterious-Languages: Falsification-first toolkit for structuring and cautiously decoding undeciphered scripts such as the Voynich manuscript." width="100%"></a>
+<a href="https://github.com/nuspy/Mysterious-Languages"><img src="assets/card-Mysterious-Languages.svg?v=2" alt="Mysterious-Languages: Falsification-first toolkit for structuring and cautiously decoding undeciphered scripts such as the Voynich manuscript." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -275,7 +275,7 @@ It goes from an image of an unknown script to ranked, falsifiable hypotheses: OC
 
 </details>
 
-<a href="https://github.com/nuspy/Drone-CV-Flight"><img src="assets/card-Drone-CV-Flight.svg" alt="Drone-CV-Flight: GPS-denied drone navigation by camera recognition, trained and tested in simulation." width="100%"></a>
+<a href="https://github.com/nuspy/Drone-CV-Flight"><img src="assets/card-Drone-CV-Flight.svg?v=2" alt="Drone-CV-Flight: GPS-denied drone navigation by camera recognition, trained and tested in simulation." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -295,9 +295,9 @@ It estimates position, altitude, velocity and confidence from camera images, a m
 
 </details>
 
-<img src="assets/divider-apps.svg" alt="APPS & TOOLS" width="100%">
+<img src="assets/divider-apps.svg?v=2" alt="APPS & TOOLS" width="100%">
 
-<a href="https://github.com/nuspy/T-AI-rots"><img src="assets/card-T-AI-rots.svg" alt="T-AI-rots: Multi-user web and mobile app for AI-guided Thoth tarot readings, with credits and an admin console." width="100%"></a>
+<a href="https://github.com/nuspy/T-AI-rots"><img src="assets/card-T-AI-rots.svg?v=2" alt="T-AI-rots: Multi-user web and mobile app for AI-guided Thoth tarot readings, with credits and an admin console." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -317,7 +317,7 @@ A user asks a question, answers a short AI interview, picks cards from a fan, se
 
 </details>
 
-<a href="https://github.com/nuspy/Curriculum-AI"><img src="assets/card-Curriculum-AI.svg" alt="Curriculum-AI: Local job-search and application assistant driven by an AI agent over MCP (called AutoJob inside)." width="100%"></a>
+<a href="https://github.com/nuspy/Curriculum-AI"><img src="assets/card-Curriculum-AI.svg?v=2" alt="Curriculum-AI: Local job-search and application assistant driven by an AI agent over MCP (called AutoJob inside)." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -337,7 +337,7 @@ A local daemon searches job portals, ranks postings against a profile built from
 
 </details>
 
-<a href="https://github.com/nuspy/bookwriter"><img src="assets/card-bookwriter.svg" alt="bookwriter: Turns notes or whole books into an ordered, print-ready book or wiki archive using a local LLM." width="100%"></a>
+<a href="https://github.com/nuspy/bookwriter"><img src="assets/card-bookwriter.svg?v=2" alt="bookwriter: Turns notes or whole books into an ordered, print-ready book or wiki archive using a local LLM." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -357,7 +357,7 @@ It ingests files, splits them into idea nodes and organizes them into chapters, 
 
 </details>
 
-<a href="https://github.com/nuspy/wikibridge"><img src="assets/card-wikibridge.svg" alt="wikibridge: Imports external wikis and local documents into a per-project markdown wiki for agents." width="100%"></a>
+<a href="https://github.com/nuspy/wikibridge"><img src="assets/card-wikibridge.svg?v=2" alt="wikibridge: Imports external wikis and local documents into a per-project markdown wiki for agents." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -377,7 +377,7 @@ It crawls or reads MediaWiki, Confluence, Notion, HTML and local files (PDF, DOC
 
 </details>
 
-<a href="https://github.com/nuspy/apisec-suite"><img src="assets/card-apisec-suite.svg" alt="apisec-suite: Orchestrates three API security scanners and merges their findings into one report." width="100%"></a>
+<a href="https://github.com/nuspy/apisec-suite"><img src="assets/card-apisec-suite.svg?v=2" alt="apisec-suite: Orchestrates three API security scanners and merges their findings into one report." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -397,7 +397,7 @@ You configure the target and credentials once; the engines run in sequence, resu
 
 </details>
 
-<a href="https://github.com/nuspy/lanterna"><img src="assets/card-lanterna.svg" alt="lanterna: First-party website analytics in your own PostgreSQL, without cookies or third-party services." width="100%"></a>
+<a href="https://github.com/nuspy/lanterna"><img src="assets/card-lanterna.svg?v=2" alt="lanterna: First-party website analytics in your own PostgreSQL, without cookies or third-party services." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -417,7 +417,7 @@ A browser observer and a FastAPI router collect page views, active time, scroll 
 
 </details>
 
-<a href="https://github.com/nuspy/seo-notify"><img src="assets/card-seo-notify.svg" alt="seo-notify: Small library that tells search engines when content is published: IndexNow, WebSub and Search Console." width="100%"></a>
+<a href="https://github.com/nuspy/seo-notify"><img src="assets/card-seo-notify.svg?v=2" alt="seo-notify: Small library that tells search engines when content is published: IndexNow, WebSub and Search Console." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -437,7 +437,7 @@ It sends URL notifications to IndexNow (Bing, Yandex, Naver, Seznam), pings a We
 
 </details>
 
-<a href="https://github.com/nuspy/VRAM_EXPLORER"><img src="assets/card-VRAM_EXPLORER.svg" alt="VRAM_EXPLORER: Windows tool that shows which processes use GPU memory, what is in it, and lets you manage it." width="100%"></a>
+<a href="https://github.com/nuspy/VRAM_EXPLORER"><img src="assets/card-VRAM_EXPLORER.svg?v=2" alt="VRAM_EXPLORER: Windows tool that shows which processes use GPU memory, what is in it, and lets you manage it." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -457,7 +457,7 @@ It reads Windows GPU performance counters and NVML to attribute video memory per
 
 </details>
 
-<a href="https://github.com/nuspy/WordMD"><img src="assets/card-WordMD.svg" alt="WordMD: Microsoft Word add-in that imports and exports Markdown and inserts editable Mermaid diagrams." width="100%"></a>
+<a href="https://github.com/nuspy/WordMD"><img src="assets/card-WordMD.svg?v=2" alt="WordMD: Microsoft Word add-in that imports and exports Markdown and inserts editable Mermaid diagrams." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
@@ -477,7 +477,7 @@ A task pane in Word with four tabs (Import, Style, Export, Diagram). It converts
 
 </details>
 
-<a href="https://github.com/nuspy/dithered_QR_Code"><img src="assets/card-dithered_QR_Code.svg" alt="dithered_QR_Code: Generates scannable QR codes that contain a dithered black-and-white photo." width="100%"></a>
+<a href="https://github.com/nuspy/dithered_QR_Code"><img src="assets/card-dithered_QR_Code.svg?v=2" alt="dithered_QR_Code: Generates scannable QR codes that contain a dithered black-and-white photo." width="100%"></a>
 
 <details>
 <summary><b>Details</b></summary>
